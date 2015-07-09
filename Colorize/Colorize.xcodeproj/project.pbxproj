@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272F47491B4F148100A4DCE0 /* FriendsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272F47481B4F148100A4DCE0 /* FriendsCollectionViewController.m */; };
+		272F474C1B4F172C00A4DCE0 /* FriendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272F474B1B4F172C00A4DCE0 /* FriendDetailViewController.m */; };
 		27A836F41B46F00200F02B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A836F31B46F00200F02B14 /* main.m */; };
 		27A836F71B46F00200F02B14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A836F61B46F00200F02B14 /* AppDelegate.m */; };
 		27A836FA1B46F00200F02B14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A836F91B46F00200F02B14 /* ViewController.m */; };
@@ -30,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		272F47471B4F148100A4DCE0 /* FriendsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsCollectionViewController.h; sourceTree = "<group>"; };
+		272F47481B4F148100A4DCE0 /* FriendsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsCollectionViewController.m; sourceTree = "<group>"; };
+		272F474A1B4F172C00A4DCE0 /* FriendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendDetailViewController.h; sourceTree = "<group>"; };
+		272F474B1B4F172C00A4DCE0 /* FriendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendDetailViewController.m; sourceTree = "<group>"; };
 		27A836EE1B46F00200F02B14 /* Colorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A836F21B46F00200F02B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27A836F31B46F00200F02B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,6 +103,10 @@
 				27A836F61B46F00200F02B14 /* AppDelegate.m */,
 				27A836F81B46F00200F02B14 /* ViewController.h */,
 				27A836F91B46F00200F02B14 /* ViewController.m */,
+				272F47471B4F148100A4DCE0 /* FriendsCollectionViewController.h */,
+				272F47481B4F148100A4DCE0 /* FriendsCollectionViewController.m */,
+				272F474A1B4F172C00A4DCE0 /* FriendDetailViewController.h */,
+				272F474B1B4F172C00A4DCE0 /* FriendDetailViewController.m */,
 				27A836FB1B46F00200F02B14 /* Main.storyboard */,
 				27A836FE1B46F00200F02B14 /* Images.xcassets */,
 				27A837001B46F00200F02B14 /* LaunchScreen.xib */,
@@ -233,7 +243,9 @@
 			files = (
 				27A836FA1B46F00200F02B14 /* ViewController.m in Sources */,
 				27A836F71B46F00200F02B14 /* AppDelegate.m in Sources */,
+				272F47491B4F148100A4DCE0 /* FriendsCollectionViewController.m in Sources */,
 				27A836F41B46F00200F02B14 /* main.m in Sources */,
+				272F474C1B4F172C00A4DCE0 /* FriendDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +448,7 @@
 				27A837131B46F00300F02B14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27A837141B46F00300F02B14 /* Build configuration list for PBXNativeTarget "ColorizeTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +457,7 @@
 				27A837161B46F00300F02B14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
