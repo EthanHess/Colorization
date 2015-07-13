@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKShareKit/FBSDKShareKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+
 
 @interface ViewController ()
 
@@ -22,7 +24,8 @@
     FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
     loginButton.center = self.view.center;
     [self.view addSubview:loginButton];
-
+    
+    
     
 }
 
